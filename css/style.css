@@ -90,3 +90,45 @@ p {
     margin-top: 10px;
 }
 
+.waitings {
+    padding-top: 100px;
+    padding-bottom: 115px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.item {
+    width: 280px;
+    background: url(../img/icon1.jpeg) no-repeat center top;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.item-title {
+    font-size: 19px;
+}
+
+.item-text {
+    margin-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.item-trip {
+    background: url(../img/icon2.jpeg) no-repeat center top;
+}
+
+.item-value {
+    width: 310px;
+    background: url(../img/icon3.jpeg) no-repeat center top;
+}
