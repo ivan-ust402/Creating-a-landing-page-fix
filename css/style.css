@@ -70,6 +70,7 @@ p {
 .btn {
     font-family: 'Monserrat', sans-serif;
     font-weight: 900;
+    font-size: 15px;
     background: #ffd429;
     color: #201b2d;
     display: block;
@@ -131,4 +132,38 @@ p {
 .item-value {
     width: 310px;
     background: url(../img/icon3.jpeg) no-repeat center top;
+}
+
+.ticket {
+    background-color: #ecf3f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.form {
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    width: 340px;
+    height: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #85828c;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding-left: 21px;
+    display: block;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-button {
+    width: 340px;
+    border: 0;
+    margin: 0 auto;
 }
