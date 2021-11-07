@@ -180,3 +180,83 @@ p {
     margin: 0;
     text-align: center; 
  }
+
+
+
+
+ /* Responsive -  */
+
+ /* 992px - 1200px */
+ @media screen and (max-width:1200px) {
+     .container {
+         width: 960px;
+     }
+     .wrapper {
+        flex-direction: column;
+     }
+     .travels {
+         margin-right: 0;
+         display: block;
+     }
+     .offer {
+        width: 100%;
+        padding: 0;
+       
+    }
+    
+ }
+ 
+ /* 768px - 992px */
+ @media screen and (max-width:992px) {
+    .container {
+        width: 720px;
+    }
+    .main-title {
+        width: 100%;
+    }
+    .br-first {
+        display: none;
+    }
+    .intro {
+        width: 100%;
+    } 
+    .items {
+        flex-direction: column;
+    }
+    .item {
+        width: auto;
+    }
+
+    
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width:768px) {
+    .container {
+        width: 540px;
+    }
+    a.btn {
+        width: 100%;
+    }
+    .travels {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+    }
+    .btn-button {
+        width: 100%;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+    .input {
+        font-size: 13px;
+    }
+   
+}
