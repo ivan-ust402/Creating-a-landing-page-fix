@@ -12,7 +12,7 @@ function myReadData() {
     if (name == "" || email == "" || phone == "" || answer == "") {
         alert ("Вы не до конца ввели данные в форму. Пожалуйста, заполните все поля!")
     } else {
-        alert(`Ваш E-mail: ${email}, телефон: ${phone}. Спасибо ${name}! Смело двигайтесь к вашей мечте! Приятного полета в ${answer}!`);
+        alert(`Ваш E-mail: ${email}, телефон: ${phone}. Спасибо, ${name}! Смело двигайтесь к вашей мечте! Приятного полета в ${answer}!`);
     }
 }
 
@@ -33,3 +33,71 @@ btn.onclick = function () {
         document.getElementById('btn').setAttribute("href","https://wayup.in/")
     }
 }
+
+//Element animation
+$(function() {
+	$(window).scroll(function() {
+		$('#waitings .section-title').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 600) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInDown')
+			}
+		})
+	})
+
+    $(window).scroll(function() {
+		$('.item-free').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 650) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInLeft')
+			}
+		})
+	})
+
+    $(window).scroll(function() {
+		$('.item-trip').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 650) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInUp')
+			}
+		})
+	})
+
+    $(window).scroll(function() {
+		$('.item-value').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 650) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInRight')
+			}
+		})
+	})
+    $(window).scroll(function() {
+		$('#ticket .section-title').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 700) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInDown')
+			}
+		})
+	})
+
+    $(window).scroll(function() {
+		$('.form').each(function() {
+			var imagePos = $(this).offset().top
+
+			var topOfWindow = $(window).scrollTop()
+			if (imagePos < topOfWindow + 750) {  //по дефолту было 650
+				$(this).addClass('animate__fadeInUp')
+			}
+		})
+	})
+})
